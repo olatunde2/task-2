@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-import dj_database_url
+
 import os
 
 from pathlib import Path
@@ -84,8 +84,8 @@ DATABASES = {
         'USER':'olatunde',
         'PASSWORD': 'Teddybear8009^^',
         'HOST': 'olatunde.mysql.pythonanywhere-services.com',
-        'PORT': 3306,
- 
+        'PORT': '3306',
+
     }
 }
 
