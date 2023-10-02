@@ -8,23 +8,33 @@ This Django project provides an API for managing person records. It allows you t
 
    ```shell
    git clone https://github.com/your-username/django-person-api.git
+   
 Change into the project directory:
 
-```shell
+
+
+
   cd django-person-api
+  
 Create a virtual environment and activate it (optional but recommended):
 
-```shell
+
   python -m venv venv
+
 source venv/bin/activate
+
 Install the project dependencies:
 
-```shell
+
   pip install -r requirements.txt
+
 Run the development server:
 
-```shell
+
+
   python manage.py runserver
+
+
 
 Access the API at http://localhost:8000/api/.
 
@@ -84,9 +94,11 @@ Authentication: None required.
 
 ### You can interact with the API using tools like curl or Postman. Here's an example of using curl to create a new person:
 
-```shell
+
+
 
 curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://localhost:8000/api/persons/
+
 
 ### Contributing
 
