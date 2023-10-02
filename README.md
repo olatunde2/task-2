@@ -85,17 +85,11 @@ Authentication: None required.
 
 ### You can interact with the API using tools like curl or Postman. Here's an example of using curl to create a new person:
 
-
-
-
-curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://localhost:8000/api/persons/
-
+   curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://localhost:8000/api/persons/
 
 ### Contributing
 
 Feel free to contribute to this project by submitting issues or pull requests.
-
-
 
 In this README file, I've provided information on how to install and run the project, an overview of the API endpoints, and an example of how to use `curl` to interact with the API.
 
