@@ -11,30 +11,21 @@ This Django project provides an API for managing person records. It allows you t
    
 Change into the project directory:
 
-
-
-
-  cd django-person-api
+      cd django-person-api
   
 Create a virtual environment and activate it (optional but recommended):
 
+      python -m venv venv
 
-  python -m venv venv
-
-source venv/bin/activate
+      source venv/bin/activate
 
 Install the project dependencies:
 
-
-  pip install -r requirements.txt
+     pip install -r requirements.txt
 
 Run the development server:
 
-
-
-  python manage.py runserver
-
-
+     python manage.py runserver
 
 Access the API at http://localhost:8000/api/.
 
